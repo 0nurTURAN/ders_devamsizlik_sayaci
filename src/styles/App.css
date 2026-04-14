@@ -1,0 +1,155 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Giriş Alanı */
+.input-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input {
+  flex-grow: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.input-box button {
+  background-color: #28a745;
+  color: white;
+}
+
+.input-box button:hover {
+  background-color: #218838;
+}
+
+.course-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.course-name {
+  font-weight: 600;
+  color: #444;
+  flex: 1;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 0 15px;
+}
+
+.btn-counter {
+  background-color: #e0e0e0;
+  padding: 5px 12px;
+  font-weight: bold;
+}
+
+.btn-counter:hover {
+  background-color: #d0d0d0;
+}
+
+.count-display {
+  min-width: 60px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 6px 12px;
+  font-size: 0.85em;
+}
+
+.delete-btn:hover {
+  background-color: #cc0000;
+}
+
+.sort-controls {
+  display: flex !important; 
+  justify-content: center;
+  align-items: center;
+  gap: 8px; 
+  margin-bottom: 20px;
+  flex-wrap: wrap; 
+  padding: 10px;
+  border-top: 1px solid #f1f5f9;
+  border-bottom: 1px solid #f1f5f9;
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+
+
+.sort-btn {
+  background-color: #ffffff;
+  color: #475569;
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.sort-btn:hover {
+  background-color: #4a90e2;
+  color: white;
+  border-color: #4a90e2;
+  transform: translateY(-2px); 
+}
+
+/* Güncelleme Butonu Stili */
+.refresh-btn {
+  background-color: #f8fafc;
+  border: 1px solid #cbd5e1;
+  font-size: 1rem;
+  padding: 6px 12px;
+  margin-left: 10px; /* Diğerlerinden biraz ayırdık */
+}
+
+.refresh-btn:hover {
+  background-color: #3b82f6;
+  color: white;
+  transform: rotate(180deg); /* Küçük bir dönme efekti :) */
+}
